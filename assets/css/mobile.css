@@ -19,7 +19,27 @@
       .checkTitle{
         font-size: 15px;
       }
+      
 }
+@media screen and (max-width: 1600px) and (min-width: 991px){
+.nav-link{
+    font-size: 15px;
+    
+}
+.logo-text{
+    font-size: 1.5vw;
+}
+.navbar-brand{
+    margin-left: -50px;
+}
+.navbar-collapse{
+    padding-left: 90px;
+}
+.header-con .nav-item {
+    padding: 0 10px;
+    font-size: 18px;
+}
+}    
 @media only screen and (min-width: 1199px){
     h1 {
         font-size: 74px;
@@ -208,7 +228,7 @@
         top: 98px;
     }
     .header-con .nav-item {
-        padding: 0 16px;
+        padding: 0 10px;
         font-size: 18px;
     }
     .contact a {
@@ -330,6 +350,7 @@
         border: 1px solid transparent;
         margin-left: 10px;
     }
+    
 }
 @media only screen and (max-width: 991px){
     .navbar-toggler.collapsed span:nth-child(3){
@@ -365,7 +386,7 @@
         float: right;
         position: absolute;
         right: 0;
-        top: 48px;
+        top: 68px;
         z-index: 2;
     }
     .navbar-toggler-icon {
@@ -754,6 +775,9 @@
         display: none;
     }
       
+    .logo-text{
+        font-size: 2vw;
+    }
 }
 @media only screen and (max-width: 767px){
     h2 {
@@ -980,6 +1004,9 @@
     .img__items {
         display: none;
     }      
+    .logo-text{
+        font-size: 3vh;
+    }
 }
 @media only screen and (max-width: 575px){
     h2 {
@@ -1012,7 +1039,7 @@
         font-size: 14px;
     }
     .See-btn {
-        font-size: 13px;
+        font-size: 11px;
     }
     .skill-left-con .skill-left-item-con{
         margin-bottom: 15px;
@@ -1399,6 +1426,20 @@
     }
 }
 @media only screen and (max-width: 450px){
+
+    .logo.text{
+        font-size: 15px;
+    }
+    .portfolio-body-con {
+        margin-top: -292px;
+        position: relative;
+    }
+
+    .headerLogo{
+        width: 100px;
+        height: 100px;
+    }
+    
     .portfolio-img-title {
         margin-left: 20px;
     }  

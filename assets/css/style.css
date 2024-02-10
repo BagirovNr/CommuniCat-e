@@ -60,6 +60,9 @@ background: linear-gradient(33deg, rgba(242,242,255,1) 0%, rgba(235,249,255,1) 1
     padding-top: 30px;
     padding-bottom: 30px;
 }
+.logo-text{
+    font-size: 5vw;
+}
 .header-con .nav-item{
     padding: 0 18px;
     font-size: 20px;
@@ -69,6 +72,9 @@ background: linear-gradient(33deg, rgba(242,242,255,1) 0%, rgba(235,249,255,1) 1
 }
 .banner-main-con2 {
     padding-top: 130px;
+}
+.navbar-nav{
+    white-space: nowrap;
 }
 .navbar-nav .nav-item:last-child{
     padding-right: 50px;
