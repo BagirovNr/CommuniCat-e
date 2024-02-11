@@ -1,27 +1,41 @@
 
-@media only screen and (max-width: 1600px){
-    .happy-con {
-        right: 0px;
-        top: 26%;
-    }
-    .banner-right-con img[alt="banner-right-img"]{
-        width: 84vh;
-    }
-    .banner-right-con::after {
-        bottom: 80px;
-        right: -39px;
-    }
-    
-    input[type=range] {
-        width: 80%;
-        height: 30px;
-      }
-      .checkTitle{
-        font-size: 15px;
-      }
-      
+@media screen and (max-width: 2000px) and (min-width: 1208px){
+.bx-check{
+position: relative;
+right: 10px;
+top: 50px;
 }
-@media screen and (max-width: 1600px) and (min-width: 991px){
+.bx-check>div{
+    padding-top: 60px;
+}
+.logo-text{
+font-size: 1vw;
+}
+
+.title {
+    max-width: 100px;
+    right:  -1050px;
+    margin-left: -50px;
+}
+  
+  
+  .lastTitle {
+
+    margin-left: -20px;
+}
+  
+}
+@media screen and (max-width: 1198px) and (min-width: 991px){
+.title{
+    left: 150px;
+    max-width: 220px;
+}
+.lastTitle{
+    left: 100px;
+}
+}
+@media screen and (max-width: 1800px) and (min-width: 991px){
+    
 .nav-link{
     font-size: 15px;
     
@@ -39,7 +53,11 @@
     padding: 0 10px;
     font-size: 18px;
 }
-}    
+.logo-text{
+    width: 1vw;
+}
+}
+   
 @media only screen and (min-width: 1199px){
     h1 {
         font-size: 74px;
@@ -357,7 +375,7 @@
         transform: rotate(0deg);
     }
     .header-con .contact-btn{
-        margin-left: 22px;
+        margin-left: 2px;
     }
     .navbar-toggler.collapsed span:nth-child(2){
         opacity: 1;
@@ -385,7 +403,7 @@
         min-width: 35% !important;
         float: right;
         position: absolute;
-        right: 0;
+        right: 30px;
         top: 68px;
         z-index: 2;
     }
@@ -394,6 +412,7 @@
         display: block;
         height: 10px;
         background-image: none !important;
+        margin-left: -60px;
     }   
     .navbar-toggler{
         border:none;
@@ -899,7 +918,7 @@
         margin-top: 26px;
         margin-bottom: 10px;
     }
-    .portfolio-img-con .filterDiv:nth-child(2), .portfolio-img-con .filterDiv:nth-child(3), .portfolio-img-con .filterDiv:nth-child(4),.portfolio-img-con .filterDiv:nth-child(5),  .portfolio-img-con .filterDiv:last-child {
+    .portfolio-img-con .filterDiv:nth-child(2), .portfolio-img-con .filterDiv:nth-child(3), .portfolio-img-con .filterDiv:nth-child(4),.portfolio-img-con .filterDiv:nth-child(5),.portfolio-img-con .filterDiv:nth-child(6),  .portfolio-img-con .filterDiv:last-child {
         width: 50%;
         padding: 0 20px;
         margin-bottom: 15px;
@@ -960,27 +979,6 @@
     .blog-model-con .blog-box-item {
         width: 100%;
     }
-    #content {
-        
-    }.packageH2{
-        
-      }
-      
-      
-      .bx-check {
-       
-      }
-      input[type=range] {
-      
-      }
-      
-      
-      input[type=range]::-webkit-slider-thumb {
-       
-      }
-      .bx-check input[type=checkbox] {
-       
-      }
       .colchild2{
         margin-top: 25px;
         
@@ -1053,7 +1051,7 @@
     .portfolio-img-con .filterDiv:first-child {
         width: 100%;
     }
-    .portfolio-img-con .filterDiv:nth-child(2), .portfolio-img-con .filterDiv:nth-child(3), .portfolio-img-con .filterDiv:nth-child(4),.portfolio-img-con .filterDiv:nth-child(5), .portfolio-img-con .filterDiv:last-child {
+    .portfolio-img-con .filterDiv:nth-child(2), .portfolio-img-con .filterDiv:nth-child(3), .portfolio-img-con .filterDiv:nth-child(4),.portfolio-img-con .filterDiv:nth-child(5),.portfolio-img-con .filterDiv:nth-child(6), .portfolio-img-con .filterDiv:last-child {
         width: 100%;
         margin: 10px 0;
     }
@@ -1233,7 +1231,7 @@
     .service-box-item figure {
         margin: 0 auto 15px !important;
     }
-    .portfolio-img-con .filterDiv:nth-child(2), .portfolio-img-con .filterDiv:nth-child(3), .portfolio-img-con .filterDiv:nth-child(4),.portfolio-img-con .filterDiv:nth-child(5), .portfolio-img-con .filterDiv:last-child{
+    .portfolio-img-con .filterDiv:nth-child(2), .portfolio-img-con .filterDiv:nth-child(3), .portfolio-img-con .filterDiv:nth-child(4),.portfolio-img-con .filterDiv:nth-child(5),.portfolio-img-con .filterDiv:nth-child(6), .portfolio-img-con .filterDiv:last-child{
         padding: 0;
     }
     #content {
@@ -1427,7 +1425,7 @@
 }
 @media only screen and (max-width: 450px){
 
-    .logo.text{
+    .logo-text{
         font-size: 15px;
     }
     .portfolio-body-con {
@@ -1507,5 +1505,14 @@
     }
 .img__items {
     display: none;
+}
+#button.show{
+    right:30px;
+}
+.navbar-collapse {
+    left: 0px;
+}
+.See-btn{
+    font-size: 10px;
 }
 }
